@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fullstackstudent1802",
+  "private_key_id": "935059315272574aa69a7cbd7dc93564a9414850",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC6+h3o97HeG+T4\nMUdkSKQTXPrTa+L6el8SyejWpKeZT8pYvBbfSKZUc0SQIfB6v2XLMoas7xJmhePL\n65ODMhHUHe+S3+FOn5xkSDYrc0bFJBISTg0sdfqoINDx0bv+b0mAocmx/SqcFE4C\n5IbqNxmHa58Tqyggk51iQQRfCBG8vsBWXgkIO+Dc+vEqsGlcUlJGV0zY8kqpVLMM\nE/24DSqLb/Ta0OidnTxwMcDCsPTCPzIIFvookZYhmyli3cRbEB/CF6nLbGnLxSmA\nC0WR0CIpzVRFceUyQ1BUoZ7VymtmZ6DUWIHdCj23SbLWzATfxo61FYOGVs4/dZvZ\n4zoaFk/1AgMBAAECggEABEs0HqJ5ijE3y99N1Wa5pdwvwmUq3DetMUBDwZIcay/i\n5LDFEbGYaD4RaAHvhNIaY1UwtI307TfL6GXriErBEA7z7nqHsQeHTuI9pDfMe0B9\nzb/PG6NF81B1m+gGGiyyEmskt5qpvNXWiMh4tK45Ptvg1lHK5Ryes5/smsYTqjLp\nHGCReQhqm+Zc2hJJgw8/ocwTpjj5GGsL3TWT/66pyZ+DJVL/XFJpk8W0WaFjODgw\nD4Z+NoOWFzku8VnpUIainXIHvWYi4u6R1gvyjAwP0sMsd+jIJ8mUpOLbBITd+xlE\nvx8weQHWb3IB7zXrkZwkbZ7kYzhwQBUKUjXDOhvubQKBgQDx8VsOR02qi4R4+NJl\nJsYL+XarNtajssvXQkD6HuH+IsiXnbC14mlNi5RZFwgoVHw+WmVmlmTgGXfwgHd5\naGQZ+EkbD8u2gxAu90D9gPXbimO6QtpAJTO5qFDnSWVxLI8Av30poWSdVtIm6oTd\nu2d89mi/FG5Ws4olrFBh1yjHCwKBgQDF1zP+ZMFd5ctkOCMl1HY20D5zULHLzuCU\n+8IjiGLi4IXk1gVgQ33GCaYPKWhbNY8xpMEZm7wAkVyEfN/4i5mgvEJdKTFoFp68\nLEryKpquPkk+T/H05qnLqjBqFuALaW6CavAqcVh+/Tk5uksaS1+SuH8t4zlatg4X\n5nUsT/+k/wKBgBFJyNLlX3RfUdD/HrGhqqcyZTtoyL+byBsSnegBiu6I98J1vynQ\nCuxCnBAdqDSRjOs7tGE3P/APgdWKqH7hab29UyP+5fSduutQObGjpG3SnruxiTzq\nK58JmvZb9Ua4A2PvSvdNlA32JUAoo+PgP03bobJ9uECzxZxZisjjAgPvAoGATJeQ\nDYC8S7nXECmbkd27FmVwh/xJmPmygHsnIdJ/Vg5OR9WDp0z5uF2r6FrDh+woT7PU\n/jEIi7+67Z/apcKF63B20NJNylpXgco0CaTs1WBPwsv4hDN4sNxmeev5OPHMUrlL\n2WKgPCmUqgCxarCbg5XhxsYdQj0RH7eczVb7RckCgYBqtmsRzAUtj8J8f8v5IjPp\nQEulqoT+xTIqmFBzpxKVYdE6PTCsYS4GuaXrd08NWpEiXoLQA/ymYhD31UuwhBWe\nXh1fh9AH/XMWCIQfXVDm05wRLMZpegKX05fB7alWEVhlWQ3uhlhhKcSgPD9GZwix\n+TqMM7iFxyWl49oDzJpAHg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "studenttranslateproject@fullstackstudent1802.iam.gserviceaccount.com",
+  "client_id": "117440969626748072032",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/studenttranslateproject%40fullstackstudent1802.iam.gserviceaccount.com"
+}
