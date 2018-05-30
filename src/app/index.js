@@ -42,9 +42,6 @@ chrome
                     let tempSentences = paragraph.innerHTML.split('. ')
                     allSentences.push(tempSentences);
                 })
-
-                console.log('all sentences are like: ', allSentences);
-
                     pTagsArr.forEach(pTag => {
                         let para = pTag.innerHTML;
                         let paraSentences = para.split('. ');
@@ -52,19 +49,22 @@ chrome
                         for( var j = 0; j < paraSentences.length; j++){
                             for( var k = 0; k < arr1000.length; k++){
                                 let searchWord = arr1000[k];
+                                let regex = '\\b' + searchWord + '\\b'
+                                let re = new RegExp(regex,"g");
                                 //instead of searching all string text let's seperate words and look for exact match
-                                if (paraSentences[j].toLowerCase().split(' ').indexOf(searchWord.toLowerCase()) != -1) {
+                                // if (paraSentences[j].toLowerCase().split(' ').indexOf(searchWord.toLowerCase()) != -1) {
+                                //regex search
+                                if (re.test(paraSentences[j].toLowerCase()) === true){
+
                                     let a = paraSentences[j].toLowerCase().split(' ')
-                                    console.log('a is: ', a)
-                                    console.log("THIS PARAGRAPH CONTAINS THE WORD ", searchWord);
+                                    // console.log('a is: ', a)
+                                    // console.log("THIS PARAGRAPH CONTAINS THE WORD ", searchWord);
                                     googleTranslate.translate(searchWord, 'es', function (err, translation) {
                                         const translatedWord = translation.translatedText;
-                                        let regex = '\\b' + searchWord + '\\b'
-                                        let re = new RegExp(regex,"g");
                                         pTag.innerHTML = pTag.innerHTML.replace(re, translatedWord.bold());
 
                                         if(runOnce === false){
-                                            console.log('entering for para number ', j)
+                                            // console.log('entering for para number ', j)
                                             runOnce = true;
                                             pTag.addEventListener('click', function () {
                                                 googleTranslate
