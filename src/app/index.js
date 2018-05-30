@@ -59,9 +59,10 @@ chrome
                                     console.log("THIS PARAGRAPH CONTAINS THE WORD ", searchWord);
                                     googleTranslate.translate(searchWord, 'es', function (err, translation) {
                                         const translatedWord = translation.translatedText;
-                                        pTag.innerHTML = pTag
-                                            .innerHTML
-                                            .replace(searchWord, translatedWord.bold());
+                                        let regex = '\\b' + searchWord + '\\b'
+                                        let re = new RegExp(regex,"g");
+                                        pTag.innerHTML = pTag.innerHTML.replace(re, translatedWord.bold());
+
                                         if(runOnce === false){
                                             console.log('entering for para number ', j)
                                             runOnce = true;
